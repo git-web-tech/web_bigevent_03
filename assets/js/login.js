@@ -67,7 +67,7 @@ $(function () {
             success: function (res) {
                 //校验返回状态
                 if (res.status !== 0) {
-                    return layer.mes(res.message);
+                    return layer.msg(res.message);
                 }
                 //提示信息,保存token 跳转页面
                 layer.msg('跳转成功');
